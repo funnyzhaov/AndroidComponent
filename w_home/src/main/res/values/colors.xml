@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="w_home_colorPrimary">#ffd944</color>
+    <color name="w_home_colorPrimaryDark">#ffd944</color>
+    <color name="w_home_colorAccent">#ffcb00</color>
+    <color name="w_home_appstart_bg">#000000</color>
+</resources>

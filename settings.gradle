@@ -1,0 +1,7 @@
+//默认都打开基础组件
+//根据自己的业务选择开发的组件
+include ':w_login', ':network', ':commonbase', ':w_home', ':componentservice',':app', ':photo'
+//app引入
+if(!isBuildModule.toBoolean()){
+    include ':app'
+}

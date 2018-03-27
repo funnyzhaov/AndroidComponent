@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="w_login_login_tips">密码登录</string>
+    <string name="w_login_input_phone">请输入手机号</string>
+    <string name="w_login_input_password">请输入密码</string>
+    <string name="w_login_input_code">请输入验证码</string>
+</resources>

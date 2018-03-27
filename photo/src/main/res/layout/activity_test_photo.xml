@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xuexibaoapp.educhain.photo.TestPhotoActivity">
+<TextView
+    android:layout_gravity="center"
+    android:text="photo Module使用示例"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+ <ImageView
+     android:id="@+id/iv_test"
+     android:layout_marginTop="20dp"
+     android:layout_marginStart="15dp"
+     android:layout_marginEnd="15dp"
+     android:layout_width="match_parent"
+     android:layout_height="150dp" />
+ <Button
+     android:text="gif图加载(本地)"
+     android:id="@+id/btn_load_gif"
+     android:layout_gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+ <Button
+     android:text="网络图片加载"
+     android:id="@+id/btn_load_net"
+     android:layout_gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+ <Button
+     android:text="本地图片加载"
+     android:id="@+id/btn_load_local"
+     android:layout_gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+
+</LinearLayout>

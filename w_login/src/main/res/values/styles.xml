@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/w_login_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/w_login_colorPrimaryDark</item>
+        <item name="colorAccent">@color/w_login_colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/WLoginAnimation</item>
+    </style>
+    <style name="WLoginAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/w_login_anim_a_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/w_login_anim_a_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/w_login_anim_back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/w_login_anim_back_exit</item>
+    </style>
+</resources>

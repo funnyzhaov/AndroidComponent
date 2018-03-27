@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xuexibaoapp.educhain.w_login">
+    <application
+        android:theme="@style/XueLianAppTheme">
+        <activity
+            android:name="com.xuexibaoapp.educhain.w_login.LoginActivity">
+
+        </activity>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".ResetPasswordActivity"/>
+        <activity android:name=".IdentityInterceptActivity"/>
+    </application>
+
+</manifest>

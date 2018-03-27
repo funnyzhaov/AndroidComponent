@@ -1,0 +1,53 @@
+//if(isBuildModule.toBoolean()){
+//    apply plugin: 'com.android.application'
+//}else{
+    apply plugin: 'com.android.library'
+//}
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+//        if (isBuildModule.toBoolean()) {
+//            applicationId "com.xuexibaoapp.educhain.photo"
+            versionCode 1
+            versionName "1.0"
+//        }
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets{
+        main{
+//            if(isBuildModule.toBoolean()){
+//                manifest.srcFile 'src/main/module/AndroidManifest.xml'
+//            }else{
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                java{
+                    //排除debug文件下的所有java文件
+                    exclude 'debug/**'
+                }
+            }
+        }
+    resourcePrefix "photo_"
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile "com.github.bumptech.glide:glide:${rootProject.ext.glide}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${rootProject.ext.glideCompiler}"
+}

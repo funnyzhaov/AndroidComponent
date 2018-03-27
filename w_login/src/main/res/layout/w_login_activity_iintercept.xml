@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/w_login_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/w_login_close_page" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_below="@+id/iv_close"
+        android:text="需要身份验证"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="51dp"
+        android:textColor="#231815"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/et_input_code"
+        android:layout_width="160dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/v_line_1"
+        android:layout_below="@+id/tv_tips"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:digits="1234567890"
+        android:hint="请输入图形验证码"
+        android:inputType="phone"
+        android:maxLength="6"
+        android:textColorHint="#b7b7b7"
+        android:textSize="14sp" />
+    <ImageView
+        android:id="@+id/iv_code"
+        android:layout_toRightOf="@+id/et_input_code"
+        android:layout_above="@+id/v_line_1"
+        android:layout_marginBottom="-16dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp" />
+    <ImageView
+        android:id="@+id/iv_refresh"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/w_login_refresh_icon"
+        android:layout_toRightOf="@+id/iv_code"
+        android:layout_above="@+id/v_line_1"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <View
+        android:id="@+id/v_line_1"
+        android:layout_below="@+id/et_input_code"
+        android:background="#dddddd"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_below="@id/v_line_1"
+        android:textColor="#b7b7b7"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="确定"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/w_login_login_btn_normal"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="45dp" />
+</RelativeLayout>

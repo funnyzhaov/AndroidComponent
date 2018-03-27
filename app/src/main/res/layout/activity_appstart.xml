@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appStartColor"
+    android:fitsSystemWindows="true"
+    tools:context="com.xuexibaoapp.educhain.xuelian.AppStartActivity">
+    <ImageView
+        android:layout_marginTop="160dp"
+        android:id="@+id/iv_app_start_gif"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <TextView
+        android:layout_below="@+id/iv_app_start_gif"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:layout_centerHorizontal="true"
+        android:text="Education Knowledge Togetherness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_above="@+id/tv_bottom_tx"
+        android:layout_marginBottom="7dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/app_launcher"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/tv_bottom_tx"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="8dp"
+        android:textColor="#666666"
+        android:text="Copyright © EKT 学链 版权所有"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

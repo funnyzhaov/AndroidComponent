@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="w_login_colorPrimary">#ffd944</color>
+    <color name="w_login_colorPrimaryDark">#ffd944</color>
+    <color name="w_login_colorAccent">#ffcb00</color>
+    <color name="w_login_white">#ffffff</color>
+    <color name="w_login_btn_login_normal">#b7b7b7</color>
+    <color name="w_login_btn_login_active">#231815</color>
+    <color name="w_login_btn_login_pressed">#ffffff</color>
+    <color name="w_login_get_code_normal">#4da6ff</color>
+    <color name="w_login_get_code_countdown">#b7b7b7</color>
+</resources>
