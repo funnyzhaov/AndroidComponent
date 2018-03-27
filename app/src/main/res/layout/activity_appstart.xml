@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/appStartColor"
     android:fitsSystemWindows="true"
-    tools:context="com.xuexibaoapp.educhain.xuelian.AppStartActivity">
+    tools:context="com.funnyzhao.easycomponent.xuelian.AppStartActivity">
     <ImageView
         android:layout_marginTop="160dp"
         android:id="@+id/iv_app_start_gif"

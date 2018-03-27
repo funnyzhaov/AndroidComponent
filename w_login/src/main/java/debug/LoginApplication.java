@@ -1,8 +1,8 @@
 package debug;
 
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.xuexibaoapp.educhain.commonbase.base.BaseApplication;
-import com.xuexibaoapp.educhain.commonbase.commonutil.DebugManager;
+import com.funnyzhao.easycomponent.commonbase.base.BaseApplication;
+import com.funnyzhao.easycomponent.commonbase.commonutil.DebugManager;
 
 /**
  * Created by zhaowenjie on 2018/3/23.

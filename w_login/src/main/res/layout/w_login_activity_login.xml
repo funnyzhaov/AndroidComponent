@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:fitsSystemWindows="true"
-    tools:context="com.xuexibaoapp.educhain.w_login.LoginActivity">
+    tools:context="com.funnyzhao.easycomponent.w_login.LoginActivity">
 
 
     <TextView
