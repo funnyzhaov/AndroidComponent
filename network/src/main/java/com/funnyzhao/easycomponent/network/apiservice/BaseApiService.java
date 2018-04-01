@@ -26,10 +26,9 @@ import retrofit2.http.QueryMap;
  **/
 
 public interface BaseApiService {
-    String DEBUG_BASE_URL = "http://educhain.xuexibaoapp.com/";
-    String RELEASE_BASE_URL = "http://educhain.xuexibaoapp.com/";
-//    http://test.educhain.xuexibaoapp.com/
-    
+    String DEBUG_BASE_URL = "http://test.com/";
+    String RELEASE_BASE_URL = "http://test.com/";
+
     /**
      * POST
      *

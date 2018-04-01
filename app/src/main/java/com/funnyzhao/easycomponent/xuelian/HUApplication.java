@@ -12,7 +12,7 @@ import com.funnyzhao.easycomponent.commonbase.commonutil.DebugManager;
  * @desc
  */
 
-public class XueLianApplication extends Application {
+public class HUApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();

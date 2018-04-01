@@ -3,21 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidComponent.iml" filepath="$PROJECT_DIR$/AndroidComponent.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\XueLian.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\XueLian.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\app\app.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonbase/commonbase.iml" filepath="$PROJECT_DIR$/commonbase/commonbase.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\commonbase\commonbase.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\commonbase\commonbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/componentservice/componentservice.iml" filepath="$PROJECT_DIR$/componentservice/componentservice.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\componentservice\componentservice.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\componentservice\componentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\network\network.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\network\network.iml" />
       <module fileurl="file://$PROJECT_DIR$/photo/photo.iml" filepath="$PROJECT_DIR$/photo/photo.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\photo\photo.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\photo\photo.iml" />
       <module fileurl="file://$PROJECT_DIR$/w_home/w_home.iml" filepath="$PROJECT_DIR$/w_home/w_home.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\w_home\w_home.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\w_home\w_home.iml" />
       <module fileurl="file://$PROJECT_DIR$/w_login/w_login.iml" filepath="$PROJECT_DIR$/w_login/w_login.iml" />
-      <module fileurl="file://F:\AndroidStudioProjects\AndroidComponent\w_login\w_login.iml" filepath="F:\AndroidStudioProjects\AndroidComponent\w_login\w_login.iml" />
     </modules>
   </component>
 </project>
